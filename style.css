@@ -1,0 +1,27 @@
+td, th{
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+caption{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.flex{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+}
+.box{
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
