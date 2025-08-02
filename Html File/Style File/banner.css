@@ -1,0 +1,31 @@
+body{
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 20px;
+    background-color: antiquewhite;
+}
+.banner-sec{
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+    gap: 20px;
+}
+.banner-sec p{
+    font-size: 20px;
+    text-align: justify;
+}
+.banner-sec img{
+    width: 400px;
+}
+.banner-sec button{
+    font-size: 1.30em;
+    padding: 5px 10px ;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color:coral;
+}
+.banner-sec button:hover{
+    background: blue;
+    color: #fff;
+    padding: 40px;
+}
